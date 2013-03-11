@@ -14,11 +14,11 @@
 
 <div data-role = "page" class="board">
 <div data-role="header" data-theme="c">
-	<a href="main.jsp" data-role="button" data-icon="home" data-iconpos="notext">&nbsp;</a>
+	<a href="main.html" data-role="button" data-icon="home" data-iconpos="notext">&nbsp;</a>
 	<h2>MOIM</h2>
 	<div class="ui-btn-right" data-role="controlgroup" data-type="horizontal">
-		<a href="board.jsp" data-role="button" data-icon="star">게시판</a>
-		<a href="square.jsp" data-role="button" data-icon="star">광장</a>
+		<a href="board.html" data-role="button" data-icon="star">게시판</a>
+		<a href="square.html" data-role="button" data-icon="star">광장</a>
 	</div>
 </div>
 

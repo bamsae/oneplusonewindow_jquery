@@ -5,20 +5,19 @@
 	<title>MOIM</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
-	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
-	<link rel="stylesheet" href="resources/style.css" />
+	<script src="resources/jquery-1.9.1.min.js"></script>
+	<script src="resources/jquery.mobile-1.3.0.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="resources/style.css" />
 </head>
 <body>
 
 <div data-role = "page" class="chat">
 <div data-role="header" data-theme="c">
-	<a href="main.jsp" data-role="button" data-icon="home" data-iconpos="notext">&nbsp;</a>
+	<a href="main.html" data-role="button" data-icon="home" data-iconpos="notext">&nbsp;</a>
 	<h2>MOIM</h2>
 	<div class="ui-btn-right" data-role="controlgroup" data-type="horizontal">
-		<a href="board.jsp" data-role="button" data-icon="star">게시판</a>
-		<a href="square.jsp" data-role="button" data-icon="star">광장</a>
+		<a href="board.html" data-role="button" data-icon="star">게시판</a>
+		<a href="square.html" data-role="button" data-icon="star">광장</a>
 	</div>
 </div>
 

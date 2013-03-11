@@ -5,29 +5,27 @@
 	<title>MOIM</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet"  href="../jquery.mobile-1.3.0/domos/css/themes/default/jquery.mobile-1.3.0.css">
-	<link rel="stylesheet" href="../jquery.mobile-1.3.0/domos/_assets/css/jqm-demos.css">
-	<script src="../jquery.mobile-1.3.0/domos/js/jquery.js"></script>
-	<script src="../jquery.mobile-1.3.0/domos/_assets/js/jqm-demos.js"></script>
-	<script src="../jquery.mobile-1.3.0/domos/js/jquery.mobile-1.3.0.js"></script>
+	<script src="resources/jquery-1.9.1.min.js"></script>
+	<script src="resources/jquery.mobile-1.3.0.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="resources/style.css" />
 </head>
 <body>
 
 <div data-role = "page" class="chat">
 <div data-role="header" data-theme="c">
-	<a href="main.jsp" data-role="button" data-icon="home" data-iconpos="notext"></a>
+	<a href="main.html" data-role="button" data-icon="home" data-iconpos="notext"></a>
 	<h2>MOIM</h2>
 	<div class="ui-btn-right" data-role="controlgroup" data-type="horizontal">
-		<a href="board.jsp" data-role="button" data-icon="star">게시판</a>
-		<a href="square.jsp" data-role="button" data-icon="star">광장</a>
+		<a href="board.html" data-role="button" data-icon="star">게시판</a>
+		<a href="square.html" data-role="button" data-icon="star">광장</a>
 	</div>
 </div>
 
 <div data-role="content">
-	<a href="create_new_moim_1.jsp" data-role="button">Create MOIM</a>
-	<a href="create_new_moim_2.jsp" data-role="button">Create MOIM 2</a>
-	<a href="write.jsp" data-role="button">WRITE</a>
-	<a href="chat.jsp" data-role="button">CHAT</a>
+	<a href="create_new_moim_1.html" data-role="button">Create MOIM</a>
+	<a href="create_new_moim_2.html" data-role="button">Create MOIM 2</a>
+	<a href="write.html" data-role="button">WRITE</a>
+	<a href="chat.html" data-role="button">CHAT</a>
 </div> <!-- content -->
 </div>
 
