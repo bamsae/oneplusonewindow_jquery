@@ -1,0 +1,56 @@
+@CHARSET "EUC-KR";
+
+body { font-face: "¸¼Àº °íµñ", "µ¸¿ò"; font-size: 0.75em; padding:0; margin:0; }
+
+li {list-style-type:none; }
+
+
+/* create_new_moim_1 */
+.create_add_members ul li { display: inline; }
+
+/* create_new_moim_2 */
+.add_member_list { min-width: 30em; }
+
+/* board */
+.member_excluded, .member_included { width:100%; min-height: 22px; display: block; margin:0; padding: 0.1875em; }
+.member_excluded img, .member_included img { width: 30px; height: 30px; margin-right: 1em; }
+.member_excluded { background-color: #DDDDDD; }
+.member_included { background-color: #FFFFFF; }
+.board .ui-collapsible .ui-icon, .square .ui-collapsible .ui-icon 
+	{ background-position: -180px 50%;/*Position of up icon in icon sprite*/ }
+.board .ui-collapsible-collapsed .ui-icon, .square .ui-collapsible .ui-icon  
+	{ background-position: -216px 50%;/*Position of down icon in icon sprite*/ }
+.board img, .square img { width: 30px; height: 30px; vertical-align: middle;}
+.board .date, .square .date { float: right; font-size: 0.75em; color: #666666; font-wieght: light; }
+
+/* square only */
+.square ul li { display: block; }
+.square .comment img { float:left; vertical-align: middle; width:30px; height:30px;}
+.square div.comment_name { width: 10%; min-width: 4em; font-weight: bold; float:left; }
+.square div.comment_content { float:left; max-width: 85%;}
+.square .comment { min-height: 35px; margin-top: 0.5em; }
+
+.square .comment_write div, .chat_input div { float:left; padding:0; margin: 0; }
+.square .comment_write .comment-text, .chat_input .chat-text { width: 75%; }
+.square .comment_write .comment-send, .chat_input .chat-send { width: 25%; }
+
+/* chat */
+.chat ul.chat_faces li { text-align: center; }
+.chat .chat_faces img  { width:30px; height:30px; margin: 2px; }
+.chat .chat_faces p { color: #FFFFFF; background-color: #575757; border-radius:10px;
+					  font-weight: 200; max-width: 4em; min-width: 4em; padding: 2px; text-align:center; margin:auto;}
+.chat div.chat_bubbles_set { min-height: 300px; min-width: 100%; }
+.chat div.bubble_u { max-width: 10em; max-height: 20em; border-radius: 5px; }
+.chat div.b1 { background-color: #a3e5ef; position: relative; left: 35%; }
+
+.chat div.chat_input { width: 100%; }
+
+.chat .ui-input-text, .chat .ui-submit, .square .ui-input-text, .square .ui-submit
+	{ width:100% !important; -webkit-box-sizing:border-box;
+	  -moz-box-sizing:border-box; box-sizing:border-box; }
+
+/* helper */
+.clear { clear: both; }
+
+/* garbage */
+.img_subs { width: 16px; height: 16px; border: 1px solid #777777; }
